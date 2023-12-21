@@ -81,7 +81,7 @@ def main():
                               generation_config=generation_config,
                               safety_settings=safety_settings)
         if example_load:
-            fpath = "./example/example1.jpeg"
+            fpath = "./Example/example1.jpeg"
             st.image(fpath, caption='Example Image',width=400)
             img_raw = Image.open(fpath)
             img_byte_arr = io.BytesIO()
